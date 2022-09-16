@@ -146,6 +146,10 @@ const config = {
   },
 }
 
-module.exports = withBundleAnalyzer(
-  withVanillaExtract(withSentryConfig(withTM(withAxiom(config)), sentryWebpackPluginOptions)),
-)
+module.exports = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  ...withBundleAnalyzer(withVanillaExtract(withSentryConfig(withTM(withAxiom(config)), sentryWebpackPluginOptions))),
+}
+
