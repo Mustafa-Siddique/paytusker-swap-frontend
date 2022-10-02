@@ -66,10 +66,10 @@ const Stats = () => {
           />
         </IconCard>
         <IconCard {...TradesCardData} mr={[null, null, null, '16px']} mb={['16px', null, null, '0']}>
-          <StatCardContent headingText={t('8% Sell Tax')} bodyText={t('')} highlightColor={theme.colors.primary} />
+          <StatCardContent headingText={t('6% Buy/Sell Tax')} bodyText={t('')} highlightColor={theme.colors.primary} />
         </IconCard>
         <IconCard {...StakedCardData}>
-          <StatCardContent headingText={t('5% Buy Tax')} bodyText={t('')} highlightColor={theme.colors.success} />
+          <StatCardContent headingText={t('10% Burn')} bodyText={t('')} highlightColor={theme.colors.success} />
         </IconCard>
       </Flex>
     </Flex>
