@@ -129,7 +129,7 @@ const Hero = () => {
             {t('The DeFi World needs a PayTusker')}
           </Heading>
           <Heading scale="md" mb="24px">
-            {t('Be a part of Giant Paytusker community, the next most popular decentralized platform in the world')}
+            {t('Be a part of the Giant Paytusker community, the next most popular decentralized platform in the world')}
           </Heading>
           <Flex>
             {!account && <ConnectWalletButton mr="8px" />}
@@ -146,7 +146,7 @@ const Hero = () => {
           position="relative"
         >
           <BunnyWrapper>
-            <img src={'/images/aytusker.png'} placeholder="blur" alt={t('Lunar bunny')} />
+            <img src="/images/aytusker.png" placeholder="blur" alt={t('Lunar bunny')} />
           </BunnyWrapper>
           {/* <StarsWrapper>
             <CompositeImage {...starsImage} />
