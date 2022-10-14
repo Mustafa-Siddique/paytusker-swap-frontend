@@ -102,11 +102,6 @@ export const socials = [
     icon: DiscordIcon,
     href: "https://discord.gg/TV3M28nD",
   },
-  {
-    label: "Medium",
-    icon: MediumIcon,
-    href: "https://medium.com/pancakeswap",
-  },
 ];
 
 export const langs: Language[] = [...Array(20)].map((_, i) => ({
