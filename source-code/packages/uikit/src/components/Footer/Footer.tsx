@@ -91,7 +91,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
           style={{ border: "none", marginBottom: 0 }}
         >
           <Flex order={[1, null, 1]} alignItems="center" style={{ color: isDark ? "white" : "black" }}>
-            Ⓒ Paytusker
+            © 2022 Paytusker. All Rights Reserved.
           </Flex>
 
           {/* <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">

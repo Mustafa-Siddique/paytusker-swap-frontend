@@ -1,5 +1,5 @@
 /**
- * @see https://github.com/pancakeswap/pancake-frontend/blob/develop/src/config/constants/tokens.ts
+ * @see https://github.com/pancake-frontend/blob/develop/src/config/constants/tokens.ts
  */
 const tokens = {
   cake: {

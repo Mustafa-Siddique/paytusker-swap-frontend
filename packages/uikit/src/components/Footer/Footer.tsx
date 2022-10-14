@@ -1,33 +1,18 @@
-import { vars } from "@pancakeswap/ui/css/vars.css";
 import React from "react";
 import { Box, Flex } from "../Box";
-import { Link } from "../Link";
 import {
   StyledFooter,
   StyledIconMobileContainer,
-  StyledList,
-  StyledListItem,
   StyledSocialLinks,
-  StyledText,
   StyledToolsContainer,
 } from "./styles";
 
-import { Button } from "../Button";
-import CakePrice from "../CakePrice/CakePrice";
-import LangSelector from "../LangSelector/LangSelector";
-import { ArrowForwardIcon, LogoWithTextIcon } from "../Svg";
-import { ThemeSwitcher } from "../ThemeSwitcher";
+// import CakePrice from "../CakePrice/CakePrice";
+import { LogoWithTextIcon } from "../Svg";
 import { FooterProps } from "./types";
 
 const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
-  items,
   isDark,
-  toggleTheme,
-  currentLang,
-  langs,
-  setLang,
-  cakePriceUsd,
-  buyCakeLabel,
   ...props
 }) => {
   return (
@@ -73,7 +58,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
           ))} */}
           <Box display={["block", null, "block"]}>
             {/* <LogoWithTextIcon isDark width="160px" /> */}
-            <img src="/images/aytusker-with-text.svg" width="100%" className="desktop-icon" />
+            <img src="/images/aytusker-with-text.svg" width="100%" className="desktop-icon" alt="" />
           </Box>
         </Flex>
         <StyledSocialLinks
@@ -91,7 +76,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
           style={{ border: "none", marginBottom: 0 }}
         >
           <Flex order={[1, null, 1]} alignItems="center" style={{ color: isDark ? "white" : "black" }}>
-            Ⓒ Paytusker
+            © 2022 Paytusker. All Rights Reserved.
           </Flex>
 
           {/* <Flex order={[1, null, 2]} mb={["24px", null, "0"]} justifyContent="space-between" alignItems="center">

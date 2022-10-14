@@ -79,7 +79,7 @@ const FAQ = () => {
                 {t('Telegram')}
               </InlineLink>
               {t('or')}
-              <InlineLink fontSize="14px" external href="https://discord.gg/pancakeswap">
+              <InlineLink fontSize="14px" external href="https://discord.gg/TV3M28nD">
                 {t('Discord')}
               </InlineLink>
               {t(
