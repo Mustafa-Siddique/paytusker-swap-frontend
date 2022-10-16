@@ -36,7 +36,7 @@ const MenuItems: React.FC<React.PropsWithChildren<MenuItemsProps>> = ({
       <MenuItem href="/swap">Swap</MenuItem>
       <MenuItem href="/liquidity">Liquidity</MenuItem>
       <MenuItem>
-        <a href="https://www.paytusker.com/" target="_blank">
+        <a href="https://nft.paytusker.com/" target="_blank">
           NFT
         </a>
       </MenuItem>
